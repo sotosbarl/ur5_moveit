@@ -13,7 +13,7 @@ Open {your_workspace_name)/src
 
 (It starts in paused mode. Press the play button on the bottom) After that:
 
-In another terminal: ```roslaunch my_ur5_gripper_moveit_config demo_gazebo_mine.launch** (for the moveit node to start, rviz also starts and we can send commands to the robot from there but we will use a script.) So run the script.
+In another terminal: ```roslaunch my_ur5_gripper_moveit_config demo_gazebo_mine.launch``` (for the moveit node to start, rviz also starts and we can send commands to the robot from there but we will use a script.) So run the script.
 
 In another terminal: ```rosrun my_ur5_gripper_moveit_config pick_n_place.py```
 
