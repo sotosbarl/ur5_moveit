@@ -1,6 +1,10 @@
 # ur5_moveit
 Open the workspace which containts robot description packages (i.e. the X_ROS folder).
 
+Follow the instructions here to install gazebo_pkgs: https://github.com/JenniferBuehler/gazebo-pkgs/wiki/Installation
+
+open ~/{your_workspace_name}/src/X_ROS/src/X_UR/ee_ur5e/ur5 and delete the ee_ur5_gazebo folder (package)
+
 Open {your_workspace_name)/src
 
 ```git clone https://github.com/sotosbarl/ur5_moveit.git```
