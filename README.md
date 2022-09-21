@@ -30,3 +30,5 @@ In another terminal,  run the script: ```rosrun opencv_services object_detector.
 move manually the object to another place and run the script again)
 
 
+
+
