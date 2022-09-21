@@ -27,4 +27,10 @@
     <arg name="paused" value="$(arg paused)"/>
     <arg name="stopped_controllers" value="$(arg stopped_controllers)"/>
   </include>
+
+<include file="$(find my_ur5_gripper_moveit_config)/launch/demo_gazebo_mine.launch">
+    
+  </include>
+
+  <node pkg="opencv_services" type="opencv_extract_object_positions" name="opencv_extract_object_positions"/>
 </launch>
