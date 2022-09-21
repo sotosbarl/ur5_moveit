@@ -26,4 +26,7 @@ You are done with installation. You can run the simulation.
 
 In another terminal,  run the script: ```rosrun opencv_services object_detector.py```
 
+(It will receive the position of the object, move the arm there, pick up the object and move it to another place. Then it terminates. You can 
+move manually the object to another place and run the script again)
+
 
