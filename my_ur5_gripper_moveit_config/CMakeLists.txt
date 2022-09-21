@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.1.3)
 project(my_ur5_gripper_moveit_config)
 
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED
+COMPONENTS
+    opencv_services)
 
 catkin_package()
 
